@@ -2,7 +2,7 @@
 
 ## R-Basics for statistics
 
-Notes on statistics and some basic things on the R language  
+Notes on statistics and the R language  
 
 ## Installing R
 First of all, you need to install R  
@@ -19,7 +19,7 @@ b = 2
 c = 3
 ```
 or preferably
-``
+```
 a <- 1
 b <- 2
 c <- 3
