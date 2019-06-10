@@ -13,12 +13,14 @@ After installing R, it is recommended to install RStudio
 [RStudio Website](https://www.rstudio.com/products/rstudio/download/)
 
 ## Variable Declarations
+
+We can assign values to variables using the `=` operator:
 ```
 a = 1
 b = 2
 c = 3
 ```
-or preferably
+or preferably, we could use the `<=` operator:
 ```
 a <- 1
 b <- 2
