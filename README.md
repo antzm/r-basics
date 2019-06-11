@@ -20,9 +20,31 @@ a = 1
 b = 2
 c = 3
 ```
-or preferably, we could use the `<=` operator:
+or preferably, we could use the `<-` operator:
 ```
 a <- 1
 b <- 2
 c <- 3
+```
+
+## Installing Packages
+```
+install.packages("packageName")
+
+```
+Installation takes place only once for each package we need
+
+
+After installing a package, we can use it in our script 
+
+by loading the library of that package:
+
+```
+library(packageName)
+```
+
+To see all the packages we have installed:
+
+```
+installed.packages()
 ```
