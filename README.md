@@ -12,6 +12,12 @@ First of all, you need to install R
 After installing R, it is recommended to install RStudio  
 [RStudio Website](https://www.rstudio.com/products/rstudio/download/)
 
+## Online R Consoles
+
+If you don't want to install R, you can still use R through various online R consoles like:
+
+* https://rextester.com/l/r_online_compiler
+
 ## Variable Declarations
 
 We can assign values to variables using the `=` operator:
@@ -33,7 +39,7 @@ a
 ```
 Or, we we could use the function `print()`
 ```
-printa(a)
+print(a)
 ```
 While, to see all the variables in our workspace, we could use the ls() function:
 ```
@@ -92,7 +98,7 @@ i.e. `DataFrameName$variableName`
 Function | Description
 ---------|------------
 class() | Shows the type of an object
-str () | Shows the structure of an object
+str() | Shows the structure of an object
 head() | Shows the first 6 lines of a Data Frame
 names() | Shows the names of the columns (variables)
 length() | Shows the lenght of an object (number of observations)
@@ -124,13 +130,21 @@ To get the list of arguments needed for a function, we could use:
 args(function_name)
 ```
 
-To get help for the operators:
+To get help for the arithmetic operators:
 
 * help("+")
 
 or  
 
 * ?"+"
+
+To get help for the logical operators:
+
+* help(">")
+
+or  
+
+* ?">"
 
 # Symbols in R
 
