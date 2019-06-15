@@ -105,6 +105,16 @@ length() | Shows the lenght of an object (number of observations)
 levels() | Shows the levels (factors) of a categorical variable
 data() | lists the available data sets in the package "datasets"
 
+## Data sets in the package 'datasets':
+
+The package 'datasets' is already included in R and it contains 104 data sets.
+
+Those data sets can be listed using the function:
+
+```
+data()
+```
+
 
 ## Mathematical Functions in R
 
@@ -120,7 +130,7 @@ exp() | e to the power of ... (exponential)
 
 * help("function_name")
 
-or  
+  or  
 
 * ?function_name
 
@@ -134,7 +144,7 @@ To get help for the arithmetic operators:
 
 * help("+")
 
-or  
+  or  
 
 * ?"+"
 
@@ -142,7 +152,7 @@ To get help for the logical operators:
 
 * help(">")
 
-or  
+  or  
 
 * ?">"
 
