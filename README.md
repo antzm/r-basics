@@ -156,7 +156,7 @@ To get help for the logical operators:
 
 * ?">"
 
-# Symbols in R
+## Mathematical Constants and Symbols in R
 
 Symbols | Description
 ---------|------------
@@ -164,10 +164,24 @@ pi | the cosntant π = 3.14159...
 inf | infinity
 
 
-# Comments in R
+## Comments in R
 
 Comments can be written by starting our text with a `#` symbol
 
 i.e. `# this is a comment in R`
 
+
+## Sources:
+
+The Comprehensive R Archive Network: 
+https://cran.r-project.org/  
+
+R Reference Card:  
+https://cran.r-project.org/doc/contrib/Short-refcard.pdf  
+
+R Documentation:  
+https://cran.r-project.org/other-docs.html  
+
+Quick-R:  
+https://www.statmethods.net/  
 
