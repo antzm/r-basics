@@ -46,6 +46,16 @@ While, to see all the variables in our workspace, we could use the ls() function
 ls()
 ```
 
+To assign a string to a variable, we are using quotes:
+```
+a <- "hello"
+
+print(a)
+
+# [1] "hello"
+
+```
+
 ## Installing Packages
 ```
 install.packages("packageName")
