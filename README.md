@@ -114,6 +114,13 @@ names() | Shows the names of the columns (variables)
 length() | Shows the lenght of an object (number of observations)
 levels() | Shows the levels (factors) of a categorical variable
 data() | lists the available data sets in the package "datasets"
+table() | given a vector, returns the frequency of each element
+
+## Logical Comparisons in R
+
+Comparison | Description
+-----------|------------
+identical(a, b) | Logical compare of object a and b
 
 ## Data sets in the package 'datasets':
 
@@ -183,7 +190,7 @@ i.e. `# this is a comment in R`
 
 ## Sources:
 
-The Comprehensive R Archive Network: 
+The Comprehensive R Archive Network:    
 https://cran.r-project.org/  
 
 R Reference Card:  
