@@ -188,6 +188,44 @@ Comments can be written by starting our text with a `#` symbol
 i.e. `# this is a comment in R`
 
 
+## Vectors
+
+### Creating Vectors
+
+To create a `vector` we use the function `c()`, where the name `c` stands for concatenate  
+
+Dogs and their ages:
+
+```
+dogs <- c("Merfys", "Mpoumpou", "Pepita")
+
+print(dogs)
+# [1] "Merfys" "Mpoumpou" "Pepita"  
+
+ages <- c(16, 11, 12)
+
+print(ages)
+# [1] 16 11 12
+
+```
+Now, we assign each one of the `dogs` to each entry in the `ages` vector:
+```
+names(ages) <- dogs
+
+print(ages)
+#   Merfys Mpoumpou   Pepita
+#     16       11       12
+```
+Alternatively, we could have used the following method and achieve the same result in just one step:
+
+```
+ages <- c("Merfys"=16, "Mpoumpou"=11, "Pepita"=12)
+
+print(ages)
+#   Merfys Mpoumpou   Pepita
+#     16       11       12
+```
+
 ## Sources:
 
 The Comprehensive R Archive Network:    
