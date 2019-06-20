@@ -120,6 +120,15 @@ table() | given a vector, returns the frequency of each element
 
 Comparison | Description
 -----------|------------
+== | logical EQUAL
+& | logical AND
+! | logical NOT
+> | greater
+>= | greater or equal
+< | less
+<= | less or equal
+!= | logical NOT EQUAL
+
 identical(a, b) | Logical compare of object a and b
 
 ## Data sets in the package 'datasets':
